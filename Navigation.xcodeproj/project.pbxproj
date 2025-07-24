@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BD8ACC9F2E32A6A2009F14B0 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8ACC9E2E32A6A2009F14B0 /* About.swift */; };
+		BD8ACCA12E32A78D009F14B0 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8ACCA02E32A78D009F14B0 /* Contact.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BD8ACC882E329D92009F14B0 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8ACC9E2E32A6A2009F14B0 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		BD8ACCA02E32A78D009F14B0 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		BD8ACC7F2E329D92009F14B0 = {
 			isa = PBXGroup;
 			children = (
+				BD8ACCA02E32A78D009F14B0 /* Contact.swift */,
+				BD8ACC9E2E32A6A2009F14B0 /* About.swift */,
 				BD8ACC8A2E329D92009F14B0 /* Navigation */,
 				BD8ACC892E329D92009F14B0 /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8ACC9F2E32A6A2009F14B0 /* About.swift in Sources */,
+				BD8ACCA12E32A78D009F14B0 /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
